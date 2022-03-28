@@ -132,4 +132,4 @@ train_score = accuracy_score(y_train, lr_clf.predict(X_train)) * 100
 
 results_df = pd.DataFrame(data=[["Logistic Regression", train_score, test_score]], 
                           columns=['Model', 'Training Accuracy %', 'Testing Accuracy %'])
-print(results_df)
+print(results_df) 
