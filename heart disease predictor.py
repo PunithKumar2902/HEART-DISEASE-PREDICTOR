@@ -9,7 +9,7 @@ import numpy as np
 
 #visualizing the data
 
-df = pd.read_csv("https://raw.githubusercontent.com/amankharwal/Website-data/master/heart.csv")
+df = pd.read_csv("heart.csv")
 df.head()
 
 df.describe()
